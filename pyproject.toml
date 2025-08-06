@@ -10,7 +10,7 @@ aw-watcher-window = "aw_watcher_window:main"
 
 [tool.poetry.dependencies]
 python = "^3.8"
-aw-client = "^0.5.14"
+aw-client = { git = "https://github.com/theteapot/aw-client" }
 pywin32 = {version = "306", platform = "win32"}
 wmi = {version = "*", platform = "win32"}
 pyobjc-framework-ApplicationServices = { version = "*", platform="darwin"}
